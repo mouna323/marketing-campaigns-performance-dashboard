@@ -1,7 +1,7 @@
 # Marketing Campaign Performance Analysis
 ##  Project Overview
-This project analyzes marketing campaign performance across different channels and customer segments to identify opportunities for improving return on investment (ROI) and cost efficiency.
-The analysis follows an end-to-end workflow, including data ingestion, transformation, and visualization.
+This project presents an end-to-end marketing campaign analysis workflow using Snowflake, SQL, Python, and Tableau.
+It evaluates campaign performance across channels and customer segments, focusing on ROI, conversion rate, and cost efficiency to identify optimization opportunities.
 
 ##  Objectives
 -  Evaluate campaign performance using ROI and conversion rate
@@ -10,9 +10,9 @@ The analysis follows an end-to-end workflow, including data ingestion, transform
 -  Support data-driven marketing decisions
 
 ## Tools & Technologies
-1. Python:Data ingestion into Snowflake
+1. Python: used to connect to Snowflake and load dataset (ingest) into cloud warehouse
 2. Snowflake:Cloud data warehouse
-3. SQL:Data cleaning, transformation, and analysis
+3. SQL:Data cleaning, transformation, analysis, and KPI calculation
 4. Tableau:Interactive dashboard visualization
 
 ##  Data Ingestion
@@ -27,6 +27,9 @@ The analysis follows an end-to-end workflow, including data ingestion, transform
     Conversion Avg Rate
     Cost Efficiency (ROI per cost)
 
+## Business Problem
+Marketing teams need to evaluate campaign performance across multiple channels to optimize ROI and reduce acquisition cost
+
 ## Key Insights
 1. Campaign performance shows **low variance across types**, indicating a balanced strategy
 2. **Influencer campaigns** achieve the highest ROI
@@ -36,7 +39,8 @@ The analysis follows an end-to-end workflow, including data ingestion, transform
 ##  Dashboard image:
 
 
-<img width="1919" height="1049" alt="marketing-campaignes-dashboard" src="https://github.com/user-attachments/assets/b3546a89-c59e-4b52-9d7c-4f293305a023" />
+<img width="1919" height="1032" alt="marketing_campaigns_dashboardd" src="https://github.com/user-attachments/assets/db84537f-1723-4a42-8073-1acf387af417" />
+
 
 
 
