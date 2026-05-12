@@ -23,8 +23,8 @@ It evaluates campaign performance across channels and customer segments, focusin
 -  Cleaned and transformed raw dataset using SQL
 -  Converted text-based cost fields into numeric values
 -  Created derived metrics:
-    ROI Avg
-    Conversion Avg Rate
+    ROI Avg,
+    Conversion Avg Rate,
     Cost Efficiency (ROI per cost)
 
 ## Business Problem
